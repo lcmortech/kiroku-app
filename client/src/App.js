@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import {useState, useEffect} from 'reacts'
+import {useState, useEffect} from 'react'
+import SearchBar from './components/SearchBar';
+import SearchResult from './components/SearchResult'
+import ListContainer from './components/ListContainer';
 
 
 function App() {
