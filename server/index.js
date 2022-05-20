@@ -1,19 +1,30 @@
 const express = require('express')
 const app = express()
 
-//USE
+//USE/MIDDLEWARE
+l
 app.use('/',(req, res)=>{
     
 })
 
 //GET
-app.get('/')
+app.get('/', (req, res)=>{
+
+})
 
 //POST
-app.post('/')
-//PATCH
+app.post('/', (req, res)=>{
+
+})
+//UPDATE
+app.put('/:param', (req, res)=>{
+
+})
 
 //DELETE
+app.delete('/:param',(req, res)=>{
+
+})
 
 //RUN
 app.listen(3000, ()=>{
